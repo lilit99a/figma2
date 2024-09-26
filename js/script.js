@@ -1,10 +1,13 @@
+let icon = document.querySelector(".menuIcon");
+let menuList = document.querySelector(".mobileList");
+
+icon.addEventListener("click", () => {
+  menuList.classList.toggle("showMobileList");
+  console.log(555);
+});
+
 let pinkItemOe = document.querySelectorAll(".itemssProvider");
 console.log(pinkItemOe);
-
-// function pItemOne(element) {
-//     element.style.backgroundColor=' rgba(254, 60, 81, 1 )';
-// }
-
 function changeColorProvider(arrayItem) {
   arrayItem.forEach((element, index) => {
     element.style.backgroundColor = "rgba(255, 255, 255, 1)";
@@ -12,6 +15,7 @@ function changeColorProvider(arrayItem) {
     element.children[2].style.color = "black";
   });
 }
+
 pinkItemOe.forEach((element, index) => {
   element.addEventListener("click", () => {
     changeColorProvider(pinkItemOe);
@@ -24,7 +28,7 @@ pinkItemOe.forEach((element, index) => {
 });
 
 let clikedItem = document.querySelector(".liFirst");
-let rotatedPic = document.querySelector(".el6img");
+let rotatedPic = document.querySelector(".ellips");
 let rotate = 360;
 clikedItem.addEventListener("click", () => {
   if (rotate == 360) {
@@ -34,6 +38,7 @@ clikedItem.addEventListener("click", () => {
   }
   rotatedPic.style.transition = "all 5s";
   rotatedPic.style.transform = `rotate(${rotate}deg)`;
+  // rotatedPic.style.backgroundColor = "pink";
 });
 
 let circyle = document.querySelectorAll(".menuList");
@@ -65,3 +70,4 @@ sixthItem.forEach((element, index) => {
     element.style.backgroundColor = " rgba(255, 248, 248, 1)";
   });
 });
+

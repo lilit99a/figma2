@@ -2,93 +2,166 @@
   .hederList {
     display: none;
   }
-  .firstTexts{
+  .firstTexts {
     width: 100%;
   }
 
   .firstPic {
     display: none;
   }
-   .vector9{
-      display: none;
-   }  
-  .menuIcon{
+  .vector9 {
+    display: none;
+  }
+  .menuIcon {
     display: initial;
-    
-}
-.menuIcon:hover + .mobileMenu{
+    cursor: pointer;
+  }
+  .menuIcon:hover + .mobileMenu {
+    display: initial;
+  }
+  .firsText {
+    margin-top: 0px;
+    font-size: 44px;
+  }
+  .firstTexts {
+    height: auto;
+  }
+  .itemss div {
+    width: 220px;
+    height: 253px;
+  }
+  /* .mobileMenu{
   display: initial;
-}
-.iconMenu{
-  display: none;
-}
-.mobileList li{
-  display: inline;
-  list-style-type: none;
-}
-.vector10{
-  display: none;
-}
-.imgList{
-  flex-wrap: wrap;
-}
-.vector9{
-  display: none;
-
-  }
-  .twoImages{
+} */
+  .iconMenu {
     display: none;
   }
-  .secondItem{
+  .mobileList li {
+    list-style-type: none;
+  }
+  .vector10 {
     display: none;
   }
-  .imgOne{
+  .imgList {
+    flex-wrap: wrap;
+  }
+  .vector9 {
     display: none;
   }
-  .imgTwo{
+  .twoImages {
     display: none;
   }
-  .chooseUs{
+  .secondItem {
+    display: none;
+  }
+  .imgOne {
+    display: none;
+  }
+  .imgTwo {
+    display: none;
+  }
+  .chooseUs {
     margin-left: 10%;
   }
-  .imgRec{
+  .imgRec {
     display: none;
   }
-  .usTwo{
+  .usTwo {
     top: 102%;
     left: 5%;
   }
-  .ourTeam{
+  .ourTeam {
     font-size: 32px;
     line-height: 31px;
   }
- 
-  .itemss{
+
+  .itemss {
     flex-wrap: wrap;
   }
- 
-  .imgRecPngOne{
+
+  .imgRecPngOne {
     display: none;
   }
-  .imgRecPngTwo{
+  .imgRecPngTwo {
     display: none;
   }
-  .aboutUs{
+  .aboutUs {
     margin-left: 10%;
   }
-  .imgRecPngThree{
-    display: none;
-
-  }
-  .itemThird{
+  .imgRecPngThree {
     display: none;
   }
-  .sixthItem{
+  .itemThirdOne {
+    display: none;
+  }
+  .sixthItem {
     display: flex;
     flex-wrap: wrap;
   }
-  .sixthItemOne{
+  .sixthItemOne {
     margin-bottom: 10px;
+    width: 218px;
+    height: 330px;
+  }
+   .input{
+    height: 152px;
+    width: 380px;
+   }
+   .inputText{
+     font-size: 19px;
+   }
+  .eighthItemFourImgThree {
+    display: none;
+  }
+  .eighthItemFourImgOne {
+    display: none;
+  }
+  .eighthItemFourImgTwo {
+    display: none;
+  }
+  .usTwo {
+    display: none;
+  }
+  .itemThirdTwo {
+    text-align: center;
+  }
+  .itemThirdTwoDiv {
+    display: none;
+  }
+  .itemThirdTwopTwo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 31px;
+  }
+  .fifthItem {
+    height: 225px;
+  }
+  .fifthItemOne {
+    display: none;
+  }
+  .fifthItemThree {
+    display: none;
+  }
+  .fifthItemTwoP1 {
+    margin-top: 9%;
+    align-self: baseline;
+    text-align-last: center;
+  }
+ .sixthItemOnePic{
+   width: 187px;
+ }
+  .sevenItemPic {
+    display: none;
+  }
+  .sevenFormInput {
+    width: 200px;
+    height: 56px;
+  }
+  .sevenFormSum {
+    width: 109px;
+    height: 66px;
+  }
+  .sevenForm {
+    margin-bottom: 31px;
   }
 }
-
